@@ -219,7 +219,11 @@ max-width: 100%;
 .article div{
     max-width: 100%;
 }
+.intro{
+    position: relative;
+    bottom: 100px;
+}
 .itropng{
-    max-width: 100;
+    max-width: 100%;
 }
 }
