@@ -1,0 +1,207 @@
+body{
+    max-width: 100%;
+    margin: 0,auto;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: hsl(217, 28%, 15%) ;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color:  hsl(0, 0%, 100%)
+}
+p{
+    font-weight: 400;
+    color:  hsl(0, 0%, 100%)
+}
+button{
+    height: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: inherit;
+    border-color: white;
+    background-color:hsl(176, 68%, 64%) ;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+input{
+    outline: none;
+    border-radius: 40px;
+    height: 45px;
+    width: 70%;
+    padding-left: 40px;
+    outline: none;
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(198, 60%, 50%);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35px,0px;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.logo img{
+    padding: 15px;
+}
+nav .bar{
+    list-style-type: none;
+}
+.bar li{
+   display: inline-flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.intro{
+    max-width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    position: relative;
+    top: 100px; 
+   
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(218, 28%, 13%);
+    height: fit-content;
+    flex-grow: 1;
+}
+/* .curvy{
+   z-index: -1;
+   left: -60px;
+} */
+.productive{
+    font-size: initial;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    background-color: hsl(218, 28%, 13%);
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.productive .team{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+.productive div{
+    margin-top: 70px;
+   padding: 35px;
+}
+.productive #motive{
+    margin-top: 100px;
+}
+article{
+    background-color: hsl(218, 28%, 13%);
+    /* height: 500px; */
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    gap: 15px; 
+    padding-top: 30px;
+}
+.curvy{
+    height: 400px;
+    max-width: 100%;
+}
+.quotes{
+    position: absolute;
+    top: -15;
+    left: 0;
+}
+.article div{
+    width: 400px;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 15px;
+}
+.identity{
+    height: auto;
+    border-radius:80%;
+    width: 80px;
+}
+.article figure{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    gap: 10px;
+    
+}
+
+aside{
+    max-width: 100%;
+    width: 800px;
+    position: sticky;
+    left: 20%;
+    box-sizing: border-box;
+    background-color:  hsl(218, 28%, 13%);
+}
+aside div{
+    text-align: center;
+   padding: 35px;
+ background-color: hsl(219, 30%, 18%);
+}
+footer{
+    background-color:  hsl(216, 53%, 9%);
+    padding: 35px ,0px;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+footer .foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot div{
+    padding: 12px;
+}
+.foot img{
+    padding: 5px;
+}
+button:hover{
+    opacity: 0.3;
+}
+a:hover{
+    position: relative;
+    bottom: 6px;
+    border-bottom: 1px solid rgb(234, 240, 234);  
+}
+@media screen and (max-width: 760px){
+    body{
+        max-width: 100%;
+        margin: 0,auto;
+    }
+    header
+    {
+        text-align: center;
+    }
+}
