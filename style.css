@@ -72,6 +72,9 @@ nav .bar{
     top: 100px; 
    
 }
+.intopng{
+    max-width: 100%;
+}
 .main{
     display: flex;
     flex-direction: row;
@@ -194,7 +197,7 @@ a:hover{
     bottom: 6px;
     border-bottom: 1px solid rgb(234, 240, 234);  
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 650px){
    body{
        max-width: 100%;
        margin: 0,auto;
@@ -202,15 +205,6 @@ a:hover{
    .curvy{
        display: none;
    }
-
-   footer .foot{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    max-width: 100%;
-}
 header{
 display: flex;
 justify-content: space-between;
@@ -223,6 +217,9 @@ text-align: center;
 max-width: 100%;
 }
 .article div{
-    max-width: 100px;
+    max-width: 100%;
+}
+.itropng{
+    max-width: 100;
 }
 }
