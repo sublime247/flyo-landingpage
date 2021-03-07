@@ -75,6 +75,9 @@ nav .bar{
 .intopng{
     max-width: 100%;
 }
+.curvy{
+    max-width: 100%;
+}
 .main{
     display: flex;
     flex-direction: row;
@@ -224,6 +227,9 @@ max-width: 100%;
     bottom: 100px;
 }
 .itropng{
+    max-width: 100%;
+}
+.curvy{
     max-width: 100%;
 }
 }
