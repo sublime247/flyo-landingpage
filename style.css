@@ -1,8 +1,7 @@
 body{
     max-width: 100%;
     margin: 0,auto;
-    height: 100%;
-    overflow-x: hidden;
+    height: 100%; 
     background-color: hsl(217, 28%, 15%) ;
     font-family: 'Open Sans', sans-serif;
 }
@@ -51,6 +50,7 @@ header{
     padding: 35px,0px;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+    flex-wrap: nowrap;
 }
 .logo img{
     padding: 15px;
@@ -100,7 +100,6 @@ nav .bar{
 
 }
 .productive .team{
-    width: 400px;
     max-width: 100%;
     height: auto;
 }
@@ -124,7 +123,6 @@ article{
     padding-top: 30px;
 }
 .curvy{
-    height: 400px;
     max-width: 100%;
 }
 .quotes{
@@ -140,6 +138,7 @@ article{
     padding: 15px;
     background-color: hsl(219, 30%, 18%);
     border-radius: 15px;
+    max-width: 100%;
 }
 .identity{
     height: auto;
@@ -196,12 +195,34 @@ a:hover{
     border-bottom: 1px solid rgb(234, 240, 234);  
 }
 @media screen and (max-width: 760px){
-    body{
-        max-width: 100%;
-        margin: 0,auto;
-    }
-    header
-    {
-        text-align: center;
-    }
+   body{
+       max-width: 100%;
+       margin: 0,auto;
+   }
+   .curvy{
+       display: none;
+   }
+
+   footer .foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 100%;
+}
+header{
+display: flex;
+justify-content: space-between;
+margin: auto;
+padding: 35px,0px;
+align-items: center;
+font-family: 'Raleway', sans-serif;
+flex-wrap: nowrap;
+text-align: center;
+max-width: 100%;
+}
+.article div{
+    max-width: 100px;
+}
 }
