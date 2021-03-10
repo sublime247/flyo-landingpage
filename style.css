@@ -4,6 +4,7 @@ body{
     height: 100%; 
     background-color: hsl(217, 28%, 15%) ;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
 }
 h1{
     font-weight: 700;
@@ -15,23 +16,27 @@ p{
     color:  hsl(0, 0%, 100%)
 }
 button{
+    margin: 30px;
     height: 40px;
-    padding: 10px;
+    padding: 15px,0;
     border-radius: 30px;
     outline: inherit;
     border-color: white;
     background-color:hsl(176, 68%, 64%) ;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
+    border: none;
+    font-weight: bold;
 }
 input{
     outline: none;
     border-radius: 40px;
     height: 45px;
-    width: 70%;
+    width: 65%;
     padding-left: 40px;
     outline: none;
     cursor: pointer;
+    border: none;
 }
 ul li{
     list-style-type: none;
@@ -55,10 +60,13 @@ header{
 .logo img{
     padding: 15px;
 }
+.bar a{
+    color: white;
+}
 nav .bar{
     list-style-type: none;
 }
-.bar li{
+  nav ul{
    display: inline-flex;
     flex-direction: row;
     padding: 20px;
@@ -74,6 +82,9 @@ nav .bar{
 }
 .intopng{
     max-width: 100%;
+}
+.intro #btn{
+    width: 20%;
 }
 .curvy{
     max-width: 100%;
@@ -118,15 +129,16 @@ nav .bar{
 }
 article{
     background-color: hsl(218, 28%, 13%);
-    /* height: 500px; */
+    /* height: 450px;  */
 }
 .article{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;  
+    justify-content: space-evenly;  
     gap: 15px; 
-    padding-top: 30px;
+    padding-top: 40px;
+    margin: 35px ,0;
 }
 .curvy{
     max-width: 100%;
@@ -148,16 +160,16 @@ article{
 }
 .identity{
     height: auto;
-    border-radius:80%;
-    width: 80px;
-}
-.article figure{
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    gap: 10px;
+    border-radius: 50px;
+    width: 70px;
     
 }
+.bio{
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+
 
 aside{
     max-width: 100%;
@@ -172,9 +184,10 @@ aside div{
    padding: 35px;
  background-color: hsl(219, 30%, 18%);
 }
+
 footer{
     background-color:  hsl(216, 53%, 9%);
-    padding: 35px ,0px;
+    padding: 30px ,0px;
     z-index: -1;
     background-size: cover;
     background-position: center;
@@ -215,9 +228,6 @@ font-family: 'Raleway', sans-serif;
 flex-wrap: nowrap;
 text-align: center;
 max-width: 100%;
-}
-.article div{
-    max-width: 100%;
 }
 .itropng{
     max-width: 100%;
